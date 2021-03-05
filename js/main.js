@@ -84,8 +84,6 @@ function OnGenerate() {
 		strOut += `${identity[elem]}&#13;&#10;`;
 	}
 
-	console.log(strOut);
-
 	document.getElementById('txt_out').innerHTML = strOut;
 }
 /**
